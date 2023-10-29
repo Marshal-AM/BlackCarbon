@@ -1,0 +1,48 @@
+/* Home.css */
+
+/* Container for the entire Home component */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px; /* Optionally set a maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional background color */
+  
+  /* Center the content vertically */
+  align-items: center;
+}
+
+/* Latest Listings section on the left */
+.latest-listings {
+  flex: 1; /* Take up available space in the middle */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Add some spacing to the right of the middle section */
+  background-color: #fff; /* Optional background color */
+}
+
+/* Right panel for Your Carbon Credits and Your Listings on the right */
+.right-panel {
+  flex: 0 0 300px; /* Fixed width for the right panel */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* Optional background color */
+}
+
+/* Margin between Your Carbon Credits and Your Listings */
+.your-carbon-credits {
+  margin-bottom: 20px;
+}
+
+.your-listings {
+  margin-bottom: 20px;
+}
+
+/* Common styles for headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Define additional styles as needed */
